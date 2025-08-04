@@ -11,4 +11,4 @@ Dr. Yu earned her Ph.D. in Agricultural Economics from Texas A&M University and 
 
 Dr. Yu’s recent research focuses on carbon reduction strategies in the pursuit of carbon neutrality, examining their broader economic and social impacts. Her expertise spans sustainable development, natural disaster management, climate finance, and the intersection of energy and the environment. In recent years, she has published more than 20 papers in prominent academic journals, including Applied Energy, Energy Economics, Energy Policy, Journal of International Money and Finance, and Renewable and Sustainable Energy Reviews. Many of her publications are highly cited and recognized as significant contributions to the field. She has also authored several chapters in academic monographs.
 
-[Chin-Hsien Yu's Curriculum Vitae](../assets/C-H Yu_CV.pdf).
+[Chin-Hsien Yu's Curriculum Vitae](https://github.com/Evaniayu/Evaniayu.github.io/blob/master/assets/C-H Yu_CV.pdf)).
