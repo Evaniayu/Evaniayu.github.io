@@ -10,3 +10,16 @@ h1, h2, h3, h4, h5 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
+
+/* 导航间距更大、更优雅 */
+.masthead__menu-item {
+  padding: 0 22px;
+  font-size: 18px;
+  letter-spacing: 0.5px;  /* 字距微调 */
+}
+
+/* 导航区背景略提高视觉空间 */
+.masthead {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e5e5; /* 细边框提升精致度 */
+}
