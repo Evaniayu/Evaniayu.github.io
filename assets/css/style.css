@@ -1,4 +1,4 @@
-navbar {
+.navbar {
   font-family: "EB Garamond", serif;
   display: flex;              /* 启用 Flexbox */
   justify-content: center;    /* 水平居中 */
@@ -7,15 +7,15 @@ navbar {
 }
 
 /* ===== 左侧栏内容自动换行 ===== */
-sidebar {
+.sidebar {
   word-wrap: break-word;       /* 老方法，兼容性好 */
   overflow-wrap: break-word;   /* 新标准，推荐 */
   white-space: normal;         /* 默认换行 */
 }
 
 /* 如果左侧栏有菜单链接 */
-sidebar ul li,
-sidebar a {
+.sidebar ul li,
+.sidebar a {
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
