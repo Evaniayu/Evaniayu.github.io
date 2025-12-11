@@ -1,26 +1,62 @@
+/* ===== 导航栏样式 ===== */
 .navbar {
   font-family: "EB Garamond", serif;
-  display: flex;              /* 启用 Flexbox */
-  justify-content: center;    /* 水平居中 */
-  gap: 20px;                  /* 菜单项之间间距 */
-  padding: 10px 0;            /* 上下间距，可选 */
+  display: flex;              
+  justify-content: center;    
+  gap: 20px;                  
+  padding: 10px 0;            
 }
 
-/* ===== 左侧栏内容自动换行 ===== */
+/* ===== 左侧栏完整样式 ===== */
 .sidebar {
-  word-wrap: break-word;       /* 老方法，兼容性好 */
-  overflow-wrap: break-word;   /* 新标准，推荐 */
-  white-space: normal;         /* 默认换行 */
+  width: 300px;                /* 左侧栏宽度，可调整 */
+  min-width: 250px;            /* 最小宽度 */
+  max-width: 400px;            /* 最大宽度，可选 */
+  padding: 20px;               /* 内边距 */
+  box-sizing: border-box;      /* 包括 padding 在内计算宽度 */
+  word-wrap: break-word;       
+  overflow-wrap: break-word;   
+  white-space: normal;         
+  flex-shrink: 0;              /* Flexbox 不被压缩 */
 }
 
-/* 如果左侧栏有菜单链接 */
-.sidebar ul li,
-.sidebar a {
-  white-space: normal;
+/* 左侧栏内部内容自动换行 */
+.sidebar ul,
+.sidebar li,
+.sidebar a,
+.sidebar p {
+  white-space: normal;         
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
+/* ===== Flexbox 布局: 左侧栏 + 内容区 ===== */
+.main-wrapper {
+  display: flex;
+  flex-direction: row;         
+}
+
+.content-area {
+  flex: 1;                     
+  margin-left: 20px;           
+}
+
+/* ===== 响应式: 移动端 ===== */
+@media (max-width: 768px) {
+  .main-wrapper {
+    flex-direction: column;    
+  }
+
+  .sidebar {
+    width: 100%;               
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content-area {
+    margin-left: 0;
+  }
+}
 
 /* 正文章节字体：EB Garamond */
 body {
