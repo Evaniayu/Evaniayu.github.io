@@ -1,8 +1,8 @@
 /* ===== 导航栏样式 ===== */
 .navbar {
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", serif !important;
   display: flex;              
-  justify-content: center;    
+  justify-content: center !important;    
   gap: 20px;                  
   padding: 10px 0;            
 }
@@ -25,9 +25,9 @@
 .sidebar li,
 .sidebar a,
 .sidebar p {
-  white-space: normal;         
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  white-space: normal !important;         
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 /* ===== Flexbox 布局: 左侧栏 + 内容区 ===== */
