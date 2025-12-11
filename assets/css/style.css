@@ -51,6 +51,11 @@
   max-width: 900px;            /* 可限制右侧内容宽度，让它偏中 */
 }
 
+.content-area main {
+    margin-top: 30px;      /* 避免重叠 */
+}
+
+
 /* ===== 响应式: 移动端 ===== */
 @media (max-width: 768px) {
   .main-wrapper {
@@ -71,8 +76,8 @@
 /* 导航栏名字居中 */
 .header {
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center;     /* 垂直居中 */
+    justify-content: center !important; /* 水平居中 */
+    align-items: center !important;     /* 垂直居中 */
 }
 
 
