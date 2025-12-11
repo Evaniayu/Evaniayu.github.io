@@ -15,6 +15,13 @@
   white-space: nowrap;
 }
 
+.navbar {
+  display: flex;              /* 启用 Flexbox */
+  justify-content: center;    /* 水平居中 */
+  gap: 20px;                  /* 菜单项之间间距 */
+  padding: 10px 0;            /* 上下间距，可选 */
+}
+
 /* 正文章节字体：EB Garamond */
 body {
   font-family: "EB Garamond", serif;
