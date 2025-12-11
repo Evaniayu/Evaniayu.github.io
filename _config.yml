@@ -23,7 +23,7 @@ repository               : "Evaniayu/evaniayu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Yu1-head.jpg"
   name             : "Chin-Hsien Yu"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
