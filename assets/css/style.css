@@ -1,3 +1,19 @@
+/* ===== 扩大导航项目间距 ===== */
+.masthead__menu-item {
+  padding: 0 20px;      /* 左右间距 */
+  font-size: 17px;      /* 字体稍微加大 */
+}
+
+/* ===== 调整导航整体高度（更舒服） ===== */
+.masthead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* ===== 如果感觉导航仍然太挤，可以强制 greedy-nav 不要太早隐藏 ===== */
+.greedy-nav .visible-links > li {
+  white-space: nowrap;
+}
 
 /* 正文章节字体：EB Garamond */
 body {
