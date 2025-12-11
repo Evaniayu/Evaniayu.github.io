@@ -18,6 +18,8 @@
   overflow-wrap: break-word !important;   
   white-space: normal !important;         
   flex-shrink: 0;              /* Flexbox 不被压缩 */
+  display: flex;
+  flex-direction: column;
 }
 
 /* 左侧栏内部内容自动换行 */
@@ -30,6 +32,13 @@
   overflow-wrap: break-word !important;
 }
 
+/* 左侧栏名字居中 */
+.sidebar .name {
+  width: 100%;
+  text-align: center;    /* 确保左栏名字居中 */
+  margin-bottom: 20px;   /* 可选，增加名字和其他内容间距 */
+}
+
 /* ===== Flexbox 布局: 左侧栏 + 内容区 ===== */
 .main-wrapper {
   display: flex;
@@ -38,7 +47,8 @@
 
 .content-area {
   flex: 1;                     
-  margin-left: 50px;           
+  margin-left: 50px; 
+  max-width: 900px;            /* 可限制右侧内容宽度，让它偏中 */
 }
 
 /* ===== 响应式: 移动端 ===== */
@@ -58,9 +68,10 @@
   }
 }
 
+/* 导航栏名字居中 */
 header {
-  text-align: center !important; /* 水平居中 */
   width: 100%;
+  text-align: center !important; /* 水平居中 */
 }
 
 .name {
