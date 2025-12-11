@@ -86,13 +86,12 @@ footer a[href="/sitemap"] {
     display: none !important;
 }
 
-/* 隐藏 Follow 链接（通常是 RSS feed 或 GitHub follow） */
-footer a[href*="follow"],
-footer a[href*="Follow"],
-footer .footer-follow,
-footer .follow {
+/* 隐藏 RSS feed Follow 链接 */
+footer a[href*="feed.xml"],
+footer .social-link {
     display: none !important;
 }
+
 
 /* 正文章节字体：EB Garamond */
 body {
