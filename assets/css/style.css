@@ -1,27 +1,9 @@
 
-/* === 安全、不破版的导航间距放大 === */
-.masthead__menu-item {
-  padding: 0 14px;      /* 14px 是 greedy-nav 安全区 */
-  font-size: 17px;
-}
-
-/* 导航高度加一点（视觉更好） */
-.masthead {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/* 避免导航项目过长被挤爆 */
-.greedy-nav .visible-links > li > a {
-  white-space: nowrap;
-}
-
-
 /* 正文章节字体：EB Garamond */
 body {
   font-family: "EB Garamond", serif;
-  font-size: 20px;
-  line-height: 1.65;
+  font-size: 19px;
+  line-height: 1.60;
 }
 
 /* 标题字体：Lato */
