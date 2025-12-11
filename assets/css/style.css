@@ -58,6 +58,16 @@
   }
 }
 
+header {
+  text-align: center !important; /* 水平居中 */
+  width: 100%;
+}
+
+.name {
+  display: inline-block !important; /* 确保文本居中 */
+}
+
+
 /* 正文章节字体：EB Garamond */
 body {
   font-family: "EB Garamond", serif;
