@@ -70,3 +70,11 @@ h1, h2, h3, h4, h5 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
+
+.navbar,
+.navbar a,
+.masthead__menu-item {
+  font-family: "EB Garamond", serif !important; /* 与正文一致 */
+  font-size: 19px;                   /* 可选：与正文字号一致 */
+  font-weight: normal;               /* 可选：与正文字体粗细一致 */
+}
