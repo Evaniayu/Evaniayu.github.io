@@ -23,7 +23,7 @@ repository               : "Evaniayu/evaniayu.github.io"
 author:
   # Biographic information
   avatar           : "CHYu.png"
-  name             : # "Chin-Hsien Yu"
+  name             : " "
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Chengdu"
@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=gMZ-LDMAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-8805-2248"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
