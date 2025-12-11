@@ -80,10 +80,6 @@
     align-items: center !important;     /* 垂直居中 */
 }
 
-footer a[href*="sitemap"] {
-    display: none !important;
-}
-
 /* 正文章节字体：EB Garamond */
 body {
   font-family: "EB Garamond", serif;
