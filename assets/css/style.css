@@ -9,7 +9,7 @@
 
 /* ===== 左侧栏完整样式 ===== */
 .sidebar {
-  width: 300px;                /* 左侧栏宽度，可调整 */
+  width: 400px;                /* 左侧栏宽度，可调整 */
   min-width: 250px;            /* 最小宽度 */
   max-width: 400px;            /* 最大宽度，可选 */
   padding: 20px;               /* 内边距 */
