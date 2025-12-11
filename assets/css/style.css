@@ -80,11 +80,19 @@
     align-items: center !important;     /* 垂直居中 */
 }
 
+/* 隐藏 Sitemap 链接 */
 footer a[href="/sitemap/"],
 footer a[href="/sitemap"] {
     display: none !important;
 }
 
+/* 隐藏 Follow 链接（通常是 RSS feed 或 GitHub follow） */
+footer a[href*="follow"],
+footer a[href*="Follow"],
+footer .footer-follow,
+footer .follow {
+    display: none !important;
+}
 
 /* 正文章节字体：EB Garamond */
 body {
