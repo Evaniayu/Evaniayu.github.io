@@ -1,4 +1,5 @@
-.navbar {
+navbar {
+  font-family: "EB Garamond", serif;
   display: flex;              /* 启用 Flexbox */
   justify-content: center;    /* 水平居中 */
   gap: 20px;                  /* 菜单项之间间距 */
