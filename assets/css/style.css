@@ -6,6 +6,15 @@ navbar {
   padding: 10px 0;            /* 上下间距，可选 */
 }
 
+.sidebar {
+  width: 300px;
+}
+
+.content-area {
+  margin-left: 320px;
+}
+
+
 /* 正文章节字体：EB Garamond */
 body {
   font-family: "EB Garamond", serif;
