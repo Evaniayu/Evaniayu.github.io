@@ -11,15 +11,19 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-/* 导航间距更大、更优雅 */
+/* ===== 扩大导航项目间距 ===== */
 .masthead__menu-item {
-  padding: 0 22px;
-  font-size: 18px;
-  letter-spacing: 0.5px;  /* 字距微调 */
+  padding: 0 20px;      /* 左右间距 */
+  font-size: 17px;      /* 字体稍微加大 */
 }
 
-/* 导航区背景略提高视觉空间 */
+/* ===== 调整导航整体高度（更舒服） ===== */
 .masthead {
-  padding: 12px 0;
-  border-bottom: 1px solid #e5e5e5; /* 细边框提升精致度 */
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* ===== 如果感觉导航仍然太挤，可以强制 greedy-nav 不要太早隐藏 ===== */
+.greedy-nav .visible-links > li {
+  white-space: nowrap;
 }
