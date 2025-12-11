@@ -359,14 +359,3 @@ compress_html:
   ignore:
     envs: development
 
-
-#######################################
-# Theme toggle settings
-#######################################
-
-# Enable the theme toggle button
-theme_toggle: true
-
-# Optional: use built-in icons (recommended)
-toggle_theme_icon_light: "sun"   # light mode icon
-toggle_theme_icon_dark: "moon"   # dark mode icon
