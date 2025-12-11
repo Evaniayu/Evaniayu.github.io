@@ -69,13 +69,10 @@
 }
 
 /* 导航栏名字居中 */
-header {
-  width: 100%;
-  text-align: center !important; /* 水平居中 */
-}
-
-.name {
-  display: inline-block !important; /* 确保文本居中 */
+.header {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
 }
 
 
