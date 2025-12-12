@@ -87,10 +87,10 @@ footer a[href="/sitemap"] {
 }
 
 /* 隐藏 RSS feed Follow 链接 */
-footer a[href*="feed.xml"],
-footer .social-link {
-    display: none !important;
-}
+/*footer a[href*="feed.xml"],*/
+/*footer .social-link {*/
+/*    display: none !important;*/
+/*}*/
 
 
 /* 正文章节字体：EB Garamond */
