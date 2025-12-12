@@ -106,15 +106,42 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-.navbar,
-.navbar * ,
-.masthead,
-.masthead *,
-.greedy-nav,
-.greedy-nav *,
-.masthead__menu-item,
+/* ===========================
+   Navbar / Masthead 字体优化
+   （不会覆盖图标）
+   =========================== */
+
+/* 只对文字节点生效：a、span、li、p */
+.navbar a,
+.navbar span,
+.navbar li,
+.masthead a,
+.masthead span,
+.masthead li,
+.greedy-nav a,
+.greedy-nav span,
+.greedy-nav li,
 .masthead__menu-item a {
   font-family: "EB Garamond", serif !important;
   font-size: 19px !important;
   font-weight: normal !important;
+}
+
+/* ===========================
+   图标保护（非常重要）
+   防止 EB Garamond 覆盖 icons
+   =========================== */
+
+.navbar i,
+.navbar svg,
+.navbar use,
+.masthead i,
+.masthead svg,
+.masthead use,
+.greedy-nav i,
+.greedy-nav svg,
+.greedy-nav use {
+  font-family: inherit !important; /* 恢复原主题图标字体 */
+  font-size: inherit !important;
+  font-weight: inherit !important;
 }
