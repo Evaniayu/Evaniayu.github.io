@@ -106,42 +106,38 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-/* ===========================
-   Navbar / Masthead 字体优化
-   （不会覆盖图标）
-   =========================== */
-
-/* 只对文字节点生效：a、span、li、p */
+/* ==========
+   文字样式
+   ========== */
 .navbar a,
-.navbar span,
-.navbar li,
 .masthead a,
-.masthead span,
-.masthead li,
 .greedy-nav a,
-.greedy-nav span,
-.greedy-nav li,
 .masthead__menu-item a {
   font-family: "EB Garamond", serif !important;
   font-size: 19px !important;
   font-weight: normal !important;
 }
 
-/* ===========================
-   图标保护（非常重要）
-   防止 EB Garamond 覆盖 icons
-   =========================== */
+/* ==========
+   图标保护区
+   ==========
+   防止 EB Garamond 字体与 19px font-size
+   覆盖 toggle-theme 的 SVG 图标
+   （这是导致图标消失的真正原因）
+   ========== */
 
-.navbar i,
 .navbar svg,
-.navbar use,
-.masthead i,
+.navbar svg *,
 .masthead svg,
-.masthead use,
-.greedy-nav i,
+.masthead svg *,
 .greedy-nav svg,
-.greedy-nav use {
-  font-family: inherit !important; /* 恢复原主题图标字体 */
-  font-size: inherit !important;
+.greedy-nav svg *,
+.masthead__toggle,
+.masthead__toggle svg {
+  font-family: inherit !important;
+  font-size: initial !important;
   font-weight: inherit !important;
+  width: auto !important;
+  height: auto !important;
+  display: inline-block !important;
 }
