@@ -86,7 +86,7 @@ footer a[href="/sitemap"] {
     display: none !important;
 }
 
-/* 隐藏 RSS feed Follow 链接 */
+/* 隐藏 RSS feed Follow 链接 */ /*在_config.yml中第127行改true即解决*/
 /*footer a[href*="feed.xml"],*/
 /*footer .social-link {*/
 /*    display: none !important;*/
