@@ -106,38 +106,26 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-/* ==========
-   文字样式
-   ========== */
-.navbar a,
-.masthead a,
-.greedy-nav a,
-.masthead__menu-item a {
+/* =========================================
+   全站文字设定：EB Garamond
+   排除 SVG / 图标元素
+   ========================================= */
+body,
+body *:not(svg):not(svg *):not(i):not(.ai):not(.icon) {
   font-family: "EB Garamond", serif !important;
   font-size: 19px !important;
   font-weight: normal !important;
 }
 
-/* ==========
-   图标保护区
-   ==========
-   防止 EB Garamond 字体与 19px font-size
-   覆盖 toggle-theme 的 SVG 图标
-   （这是导致图标消失的真正原因）
-   ========== */
-
-.navbar svg,
-.navbar svg *,
-.masthead svg,
-.masthead svg *,
-.greedy-nav svg,
-.greedy-nav svg *,
-.masthead__toggle,
-.masthead__toggle svg {
+/* =========================================
+   图标保护区（SVG / I / Academicons）
+   ========================================= */
+svg,
+svg *,
+i,
+.icon,
+.ai {
   font-family: inherit !important;
   font-size: initial !important;
   font-weight: inherit !important;
-  width: auto !important;
-  height: auto !important;
-  display: inline-block !important;
 }
