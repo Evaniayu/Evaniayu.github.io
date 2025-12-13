@@ -20,6 +20,7 @@
   flex-shrink: 0;              /* Flexbox 不被压缩 */
   display: flex;
   flex-direction: column;
+  font-family: "EB Garamond", serif !important;
 }
 
 /* 左侧栏内部内容自动换行 */
@@ -118,20 +119,13 @@ body *:not(svg):not(svg *):not(i):not(.ai):not(.icon) {
 }
 
 /* =========================================
-   Sidebar（左侧栏）强制 EB Garamond
-   ========================================= */
-.sidebar,
-.sidebar *:not(svg):not(svg *):not(i):not(.ai):not(.icon) {
-  font-family: "EB Garamond", serif !important;
-}
-
-/* =========================================
    Footer 强制使用 EB Garamond
-   ========================================= */
+   ========================================= 
 .page__footer,
 .page__footer *:not(svg):not(svg *):not(i):not(.ai):not(.icon) {
   font-family: "EB Garamond", serif !important;
 }
+*/
 
 /* =========================================
    图标保护区（SVG / I / Academicons）
